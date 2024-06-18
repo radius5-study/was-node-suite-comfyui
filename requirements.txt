@@ -6,7 +6,6 @@ joblib
 matplotlib
 numba
 numpy
-opencv-python-headless[ffmpeg]<=4.7.0.72
 pilgram
 rembg
 scikit-image>=0.20.0

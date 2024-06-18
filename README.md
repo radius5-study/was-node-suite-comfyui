@@ -1,5 +1,12 @@
 # radius5 (Natsuki Ogino) slim down dependencies
 
+変更日時：2024/06/18
+
+- opencv-python-headlessに依存しているカスタムノードの削除
+- requirements.txtからopencv-python-headless[ffmpeg]<=4.7.0.72を削除
+
+cv2に依存するたくさんのノードを削除。(詳細はdiffを見てください)
+
 変更日時：2024/05/29
 
 ComfyUI本体に依存する以下のimport文を削除
